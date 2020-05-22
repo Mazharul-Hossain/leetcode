@@ -1,0 +1,11 @@
+Leetcode: 500ish questions
+Hackrrank: 200ish questions
+Project Euler: 100ish
+
+Cracking the coding interview
+Elements of programming interviews in Python http://gen.lib.rus.ec/search.php?req=Elements%2Bof%2BProgramming%2BInterviews&open=0&res=25&view=simple&phrase=0&column=def
+Algorithmic Puzzles (only a few problems)
+
+Grokking the System Design Interview https://www.educative.io/courses/grokking-the-system-design-interview
+Grokking Dynamic Programming Patterns for Coding Interviews https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews
+http://highscalability.com/
