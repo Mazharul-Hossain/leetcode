@@ -31,6 +31,7 @@ class Solution:
 
 
 obj = Solution()
+print(obj.isTransformable(s="845321", t="348522"))
 print(obj.isTransformable(s="84532", t="34852"))
 print(obj.isTransformable(s="34521", t="23415"))
 print(obj.isTransformable(s="12345", t="12435"))

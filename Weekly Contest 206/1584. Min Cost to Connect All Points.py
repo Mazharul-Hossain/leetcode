@@ -13,7 +13,7 @@ class Solution:
             for i in range(len(points)):
                 for j in range(i + 1, len(points)):
                     dist = abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1])
-                    # print(points[i], points[j], dist)
+                    # print(points_clustering[i], points_clustering[j], dist)
                     cost_priority_queue.put((dist, (i, j)))
             counter, points_set = len(points) - 1, set()
 
@@ -21,7 +21,7 @@ class Solution:
             while counter > 0 and cost_priority_queue.qsize() > 0:
                 dist, point = cost_priority_queue.get()
                 point_i, point_j = point
-                # print(points[point_i], points[point_j], dist)
+                # print(points_clustering[point_i], points_clustering[point_j], dist)
 
                 ds.make_set(point_i)
                 ds.make_set(point_j)
